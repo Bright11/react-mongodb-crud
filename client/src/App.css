@@ -1,0 +1,15 @@
+.myApp {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.contenteholder {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+  flex-wrap: wrap;
+}

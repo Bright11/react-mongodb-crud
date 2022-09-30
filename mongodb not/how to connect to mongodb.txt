@@ -1,0 +1,18 @@
+In creating mongodb for your backend application, you have to first initialized your project, to do so
+1) type npm init -y
+
+After this, we need to install some of the depencies we will need, below is the list os them
+express, body-parser, cors, mongoose, and nodemon
+
+npm install express body-parser cors mongoose nodemon
+or npm i express body-parser cors mongoose nodemon
+
+After the installetion, create a file on the same root directary and name it index.js inside this file, imoport all the depencies you just installed
+
+inside pakage.json, include this,"type": "module", after "main", now add this
+
+ "scripts": {
+   "start": "nodemon index.js" // this code helps you to start the server without always restarting it when you make changes
+  },
+
+for code example check mongondb connection code.txt

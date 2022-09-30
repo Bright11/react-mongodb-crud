@@ -1,0 +1,16 @@
+After installing our react application, we need to install some depencies and they are listed below
+axios which is used to make API calls
+moment which is used for date and time converter
+react-file-base64 which is used to convert image into links
+redux and redux-thunk which is used to perform a sycruniz tunk useing redux
+
+to inst it copy the code below
+
+npm i axios moment react-file-base64 redux redux-thunk
+
+installing material ui for icons
+
+npm install @material-ui/icons
+npm install @material-ui/core
+npm i @material-ui/core
+npm i react-router-dom
